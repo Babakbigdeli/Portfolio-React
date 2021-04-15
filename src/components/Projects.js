@@ -9,7 +9,7 @@ class Projects extends Component {
     render() {
     return (
       <>
-  <Card bsPrefix='card' border="warning" >
+  <Card >
     <Card.Img src={this.props.image} />
      <Card.Body>
          <Card.Title as="h2">

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Projects from '../components/Projects';
 import SocialFooter from '../components/SocialFooter';
 import SampleProjects from '../utility/SampleProjects';
-import { Container } from "react-bootstrap";
 import CardColumns from 'react-bootstrap/CardColumns'
 
 
@@ -29,14 +28,14 @@ renderProjects = () => {
 }
 render() { 
     return (
-<Container className="condiv">
+<div className="condiv">
     <>
         <CardColumns >
             {this.renderProjects()}
         </CardColumns>
         <SocialFooter/>
     </>
-</Container>
+</div>
 
  );
 }
