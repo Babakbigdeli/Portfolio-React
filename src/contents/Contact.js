@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import SocialFooter from '../components/SocialFooter';
-
+import  "../utility/MyWebDevCV.pdf" 
 
 
 class Contact extends Component {
