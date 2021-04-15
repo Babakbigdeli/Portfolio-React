@@ -68,3 +68,6 @@ p {
   position: fixed;
   bottom: 2px;
 }
+.active {
+  font-weight: bolder;
+}
