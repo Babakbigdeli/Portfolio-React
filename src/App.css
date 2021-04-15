@@ -10,6 +10,7 @@
 }
 body {
   font-family: "Tahoma";
+  color: black;
 }
 .App {
   display: flex;
