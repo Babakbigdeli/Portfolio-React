@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.049d5fba.chunk.css",
+    "main.js": "/static/js/main.f6419531.chunk.js",
+    "main.js.map": "/static/js/main.f6419531.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9078d401.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9078d401.js.map",
+    "static/js/2.a9efc20d.chunk.js": "/static/js/2.a9efc20d.chunk.js",
+    "static/js/2.a9efc20d.chunk.js.map": "/static/js/2.a9efc20d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.049d5fba.chunk.css.map": "/static/css/main.049d5fba.chunk.css.map",
+    "static/js/2.a9efc20d.chunk.js.LICENSE.txt": "/static/js/2.a9efc20d.chunk.js.LICENSE.txt",
+    "static/media/DayPlanner.fd58560a.jpg": "/static/media/DayPlanner.fd58560a.jpg",
+    "static/media/EmpDirectory.f2e9f282.jpg": "/static/media/EmpDirectory.f2e9f282.jpg",
+    "static/media/FriendNightIn.5be8b2b3.jpg": "/static/media/FriendNightIn.5be8b2b3.jpg",
+    "static/media/Me.c1ff807c.jpg": "/static/media/Me.c1ff807c.jpg",
+    "static/media/Pantry.ab909fb6.jpg": "/static/media/Pantry.ab909fb6.jpg",
+    "static/media/WeatherDash.22ed322c.jpg": "/static/media/WeatherDash.22ed322c.jpg",
+    "static/media/WorkoutTracker.c8510033.jpg": "/static/media/WorkoutTracker.c8510033.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9078d401.js",
+    "static/js/2.a9efc20d.chunk.js",
+    "static/css/main.049d5fba.chunk.css",
+    "static/js/main.f6419531.chunk.js"
+  ]
+}
