@@ -48,7 +48,7 @@ let SampleProjects = [
     title: "Workout-Tracker",
     description: "A web based application with a Mongodb database that helps the user to keep track of its daily workout (both Cardio and Resistance) and reports it on a chart. Javascript, HTML, CSS, Mongodb, Mongoose, Heroku, Express and NodeJs was used to make this application.",
     githubLink: "https://github.com/Babakbigdeli/Workout-Tracker",
-    deployedLink: "https://thawing-everglades-97729.herokuapp.com/into",
+    deployedLink: "https://thawing-everglades-97729.herokuapp.com",
     image: WorkoutTracker
   }
 ];
