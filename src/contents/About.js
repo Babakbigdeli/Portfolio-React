@@ -13,7 +13,7 @@ return (
 <br></br>
 <ReactTypingEffect className="typingeffect" text={['I am Babak Bigdeli','I am a full stack web developer']} speed={100} eraseDelay={400}/>
 <br></br>
-<p>45, living in Greater Manchester, a full stack Web Developer graduated from Manchester University BootCamp. 
+<p>45, living in Greater Manchester, a Full-Stack Web Developer graduated from the University of Manchester's Bootcamp.
       My passion for coding initially started with finding and tweaking VBA codes to use in MS Access and Excel. After nearly 20 years of working in Admin and Logistics industry, 
       I decided to learn a new skill and change my line of work mainly because I felt there is not much more left for me to learn. Therefore I enrolled 
       in the University of Manchester's Full-Stack Bootcamp which was a 24-week intensive programme focused on teaching programming skills in 
