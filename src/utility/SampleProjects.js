@@ -1,4 +1,4 @@
-import DayPlanner from  "../image/DayPlanner.jpg";
+import GoogleBooks1 from  "../image/GoogleBooks1.jpg";
 import EmpDirectory from  "../image/EmpDirectory.jpg";
 import FriendNightIn from  "../image/FriendNightIn.jpg";
 import Pantry from  "../image/Pantry.jpg";
@@ -10,11 +10,11 @@ import WorkoutTracker from  "../image/WorkoutTracker.jpg";
 let SampleProjects = [
 
   {
-    title: "Day-Planner",
-    description: " A simple calendar app for scheduling your work day. HTML, CSS, Javascript, jQuery, Moment.js and Bootstrap was used to make this application,",
-    githubLink: "https://github.com/Babakbigdeli/Day-Planner",
-    deployedLink: "https://babakbigdeli.github.io/Day-Planner/",
-    image: DayPlanner
+    title: "Google-Books-Search",
+    description: " A React-based Google Books Search app. It utilizes React components, helper/util function and React lifecycle methods to query and display books based on user searches. It also utilizes Node, Express and MongoDB so that users can save books to review or purchase later.",
+    githubLink: "https://github.com/Babakbigdeli/Google-Books-Search",
+    deployedLink: "https://babakgbooksearch.herokuapp.com/search/",
+    image: GoogleBooks1
   },
   {
     title: "Employee-Directory-React",
