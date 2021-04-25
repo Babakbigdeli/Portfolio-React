@@ -20,11 +20,11 @@ class Projects extends Component {
          </Card.Text>
      </Card.Body>
      <Card.Footer as="h5">
-           <a href={this.props.githubLink} className="card-link">
+           <a className="card-link" href="#" onClick={()=> window.open(this.props.githubLink)}>
               Github Link
             </a>
             <br></br>
-            <a href={this.props.deployedLink}className="card-link">
+            <a className="card-link" href="#" onClick={()=> window.open(this.props.deployedLink)}>
               Deployed Link
             </a>
     </Card.Footer>
