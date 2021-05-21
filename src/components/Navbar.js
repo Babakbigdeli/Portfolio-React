@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import {FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
 
@@ -28,6 +29,10 @@ class Navbar extends Component {
             <Navitem item="Portfolio" tolink="/portfolio"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
             </ul>
+            <div className="socialfooter">
+            <a href="https://github.com/Babakbigdeli" ><FaGithub size={40} style={{ fill: 'black' }}/></a>
+            <a href="https://www.linkedin.com/in/babak-bigdeli-3b999055" ><FaLinkedin size={40} style={{ fill: 'black' }}/></a>
+            </div>
             </nav>
             )
         }

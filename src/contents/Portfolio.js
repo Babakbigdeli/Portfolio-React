@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Projects from '../components/Projects';
-import SocialFooter from '../components/SocialFooter';
 import SampleProjects from '../utility/SampleProjects';
 import CardColumns from 'react-bootstrap/CardColumns'
 
@@ -33,7 +32,6 @@ render() {
         <CardColumns >
             {this.renderProjects()}
         </CardColumns>
-        <SocialFooter/>
     </>
 </div>
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SocialFooter from '../components/SocialFooter';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../image/Me.jpg';
 
@@ -25,8 +24,6 @@ return (
 <p>I got avid interest in technology and computers, passion for music, reading, films and cooking/baking.
     Practising meditation, travelling, road trips, camping and spending quality time with my family and friends.
 </p>
-<br></br>
-<SocialFooter />
 </div>
 )
 }
