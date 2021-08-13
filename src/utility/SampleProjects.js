@@ -18,7 +18,7 @@ let SampleProjects = [
   },
   {
     title: "Employee-Directory-React",
-    description: " An online application that helps an employer to see non sensitive information of the employees in form of a directory. Javascript, REACT, CSS, HTML, NodeJs iwas used in making this appliction",
+    description: " An online application that helps an employer to see non sensitive information of the employees in form of a directory. Javascript, REACT, CSS, HTML, NodeJs was used in making this appliction",
     githubLink: "https://github.com/Babakbigdeli/Employee-Directory-React",
     deployedLink: "https://babakbigdeli.github.io/Employee-Directory-React/",
     image: EmpDirectory

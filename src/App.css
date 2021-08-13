@@ -10,7 +10,7 @@
 }
 body {
   font-family: "Tahoma";
-  color: #f7cb15;
+  color: white;
 }
 .App {
   display: flex;
@@ -35,7 +35,7 @@ body {
 }
 nav {
   flex: 7;
-  background: #f7cb15;
+  background: white;
 }
 nav ul {
   font-size: var(--fontsize-nav);
