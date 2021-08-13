@@ -33,6 +33,10 @@ body {
   height: 500px !important;
   background-color: #091dd4 !important;
 }
+
+a:link {
+  color: yellow;
+}
 nav {
   flex: 7;
   background: white;
@@ -45,10 +49,10 @@ nav ul {
 nav ul li {
   margin: 40px;
 }
-nav ul li a:hover {
+/*nav ul li a:hover {
   color: #5d5d5d;
   text-decoration: solid;
-}
+}*/
 
 p {
   font-size: var(--fontsize-p);
