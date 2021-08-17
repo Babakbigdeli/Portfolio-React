@@ -34,8 +34,20 @@ body {
   background-color: #091dd4 !important;
 }
 
-a:link {
-  color: yellow;
+a.card-link {
+  color: rgb(255, 255, 0);
+  position: absolute;
+  bottom: 40px;
+  text-decoration: none;
+}
+a.card-link1 {
+  color: rgb(255, 255, 0);
+  position: absolute;
+  bottom: 10px;
+  text-decoration: none;
+}
+#CV-Link {
+  color: rgb(255, 255, 0);
 }
 nav {
   flex: 7;
@@ -44,15 +56,10 @@ nav {
 nav ul {
   font-size: var(--fontsize-nav);
   text-align: center;
-  list-style-type: none;
 }
 nav ul li {
   margin: 40px;
 }
-/*nav ul li a:hover {
-  color: #5d5d5d;
-  text-decoration: solid;
-}*/
 
 p {
   font-size: var(--fontsize-p);

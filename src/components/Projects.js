@@ -23,8 +23,7 @@ class Projects extends Component {
            <a className="card-link" href="#" onClick={()=> window.open(this.props.githubLink)}>
               Github Link
             </a>
-            <br></br>
-            <a className="card-link" href="#" onClick={()=> window.open(this.props.deployedLink)}>
+            <a className="card-link1" href="#" onClick={()=> window.open(this.props.deployedLink)}>
               Deployed Link
             </a>
     </Card.Footer>
