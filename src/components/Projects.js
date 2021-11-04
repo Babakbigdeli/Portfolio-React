@@ -20,9 +20,11 @@ class Projects extends Component {
          </Card.Text>
      </Card.Body>
      <Card.Footer as="h5">
+           {/*eslint-disable-next-line*/}
            <a className="card-link" href="#" onClick={()=> window.open(this.props.githubLink)}>
               Github Link
             </a>
+            {/*eslint-disable-next-line*/}
             <a className="card-link1" href="#" onClick={()=> window.open(this.props.deployedLink)}>
               Deployed Link
             </a>

@@ -8,7 +8,7 @@ return (
 
 
 < div className="condiv home">
-<img src={profilepic} className="profilepic"></img>
+<img alt="profilePic" src={profilepic} className="profilepic"></img>
 <br></br>
 <ReactTypingEffect className="typingeffect" text={['My name is Babak Bigdeli','I am a full stack web developer']} speed={100} eraseDelay={400}/>
 <br></br>
