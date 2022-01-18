@@ -6,25 +6,29 @@ class Projects extends Component {
     return (
     
     <div className="card">
-        <img src={this.props.image} alt="Project Screenshot" width="300" height="100"/> 
+      <div>
+        <img src={this.props.image} alt="Project Screenshot" width="300" height="150"/> 
+        </div>
+        <div style={{height:`40px`}}>
         <h2>
         {this.props.title}
         </h2>
-        <h6>
-        {this.props.description}
-        </h6>
+        </div>
+        <div style={{height:`130px`}}>
         <h5>
-        {/*eslint-disable-next-line*/}
-        <a className="card-link" href="#" onClick={()=> window.open(this.props.githubLink)}>
+        {this.props.description}
+        </h5>
+        </div>
+        <div className="card-link" >
+        <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
         Github Link
         </a>
-        <br></br>
-        <br></br>
-        {/*eslint-disable-next-line*/}
-        <a className="card-link1" href="#" onClick={()=> window.open(this.props.deployedLink)}>
+        <span>|</span>
+        <a href={this.props.deployedLink} target="_blank" rel="noopener noreferrer">
         Deployed Link
         </a>
-        </h5>
+        </div>
+        
       </div>
 
     )};
