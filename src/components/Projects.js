@@ -1,38 +1,33 @@
 import React, { Component } from 'react'
-import Card from 'react-bootstrap/Card'
-
-
-
 
 
 class Projects extends Component {
     render() {
     return (
-      <>
-  <Card >
-    <Card.Img src={this.props.image} />
-     <Card.Body>
-         <Card.Title as="h2">
-            {this.props.title}
-         </Card.Title>
-         <Card.Text as="h6">
-            {this.props.description}
-         </Card.Text>
-     </Card.Body>
-     <Card.Footer as="h5">
-           {/*eslint-disable-next-line*/}
-           <a className="card-link" href="#" onClick={()=> window.open(this.props.githubLink)}>
-              Github Link
-            </a>
-            {/*eslint-disable-next-line*/}
-            <a className="card-link1" href="#" onClick={()=> window.open(this.props.deployedLink)}>
-              Deployed Link
-            </a>
-    </Card.Footer>
-  </Card>
-        </>
-    );
-    }
+    
+    <div className="card">
+        <img src={this.props.image} alt="Project Screenshot" width="300" height="100"/> 
+        <h2>
+        {this.props.title}
+        </h2>
+        <h6>
+        {this.props.description}
+        </h6>
+        <h5>
+        {/*eslint-disable-next-line*/}
+        <a className="card-link" href="#" onClick={()=> window.open(this.props.githubLink)}>
+        Github Link
+        </a>
+        <br></br>
+        <br></br>
+        {/*eslint-disable-next-line*/}
+        <a className="card-link1" href="#" onClick={()=> window.open(this.props.deployedLink)}>
+        Deployed Link
+        </a>
+        </h5>
+      </div>
+
+    )};
     }
     export default Projects;
  

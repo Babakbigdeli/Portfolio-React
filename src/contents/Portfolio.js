@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Projects from '../components/Projects';
 import SampleProjects from '../utility/SampleProjects';
-import CardColumns from 'react-bootstrap/CardColumns'
 
 
 
@@ -28,11 +27,9 @@ renderProjects = () => {
 render() { 
     return (
 <div className="condiv">
-    <>
-        <CardColumns >
-            {this.renderProjects()}
-        </CardColumns>
-    </>
+
+  {this.renderProjects()}
+
 </div>
 
  );
