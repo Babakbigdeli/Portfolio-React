@@ -1,11 +1,11 @@
-import GoogleBooks1 from  "../image/GoogleBooks1.jpg";
-import EmpDirectory from  "../image/EmpDirectory.jpg";
-import FriendNightIn from  "../image/FriendNightIn.jpg";
-import Pantry from  "../image/Pantry.jpg";
-import WeatherDash from  "../image/WeatherDash.jpg";
-import WorkoutTracker from  "../image/WorkoutTracker.jpg";
-import Bookmark from  "../image/Bookmark.jpg";
-import DayScheduler from  "../image/DayScheduler.jpg";
+import GoogleBooks1 from  "./image/GoogleBooks1.jpg";
+import EmpDirectory from  "./image/EmpDirectory.jpg";
+import FriendNightIn from  "./image/FriendNightIn.jpg";
+import Pantry from  "./image/Pantry.jpg";
+import WeatherDash from  "./image/WeatherDash.jpg";
+import WorkoutTracker from  "./image/WorkoutTracker.jpg";
+import Bookmark from  "./image/Bookmark.jpg";
+import DayScheduler from  "./image/DayScheduler.jpg";
 
 
 
