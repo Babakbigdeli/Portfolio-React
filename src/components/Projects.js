@@ -1,38 +1,15 @@
-import React, { Component } from 'react'
-
-
-class Projects extends Component {
-    render() {
-    return (
-    
-    <div className="card">
-      <div>
-        <img src={this.props.image} alt="Project Screenshot" width="300" height="150"/> 
-        </div>
-        <div style={{height:`40px`}}>
-        <h2>
-        {this.props.title}
-        </h2>
-        </div>
-        <div style={{height:`130px`}}>
-        <h5>
-        {this.props.description}
-        </h5>
-        </div>
-        <div className="card-link" >
-        <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
-        Github Link
-        </a>
-        <span>|</span>
-        <a href={this.props.deployedLink} target="_blank" rel="noopener noreferrer">
-        Deployed Link
-        </a>
-        </div>
-        
+function Projects({ image, title, description, githubLink, deployedLink }) {
+  return (
+    <div className="bg-gray-100 p-4 rounded-lg shadow-lg flex flex-col h-full">
+      <img src={image} alt={title} className="w-full h-40 object-cover rounded-md" />
+      <h3 className="text-lg font-semibold mt-3">{title}</h3>
+      <p className="text-gray-600 flex-grow">{description}</p>
+      <div className="mt-auto pt-3 flex justify-between border-t border-gray-300">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub</a>
+        <a href={deployedLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Live Demo</a>
       </div>
+    </div>
+  );
+}
 
-    )};
-    }
-    export default Projects;
- 
-
+export default Projects;
