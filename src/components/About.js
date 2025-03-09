@@ -1,6 +1,6 @@
 function About() {
       return (
-        <div className="mt-16 p-6 bg-white shadow-md rounded-lg">
+        <div className="mt-16 p-6 bg-[#e9e5dc] shadow-md rounded-lg">
           <h2 className="text-2xl font-bold">About Me</h2>
           <p className="mt-2 text-gray-600">Living in Greater Manchester, I graduated from the University of Manchester's Bootcamp.
       Having developed a passion for coding which evolved after finding and tweaking VBA codes to use in MS Access and Excel. I spent many years working in the Admin and 

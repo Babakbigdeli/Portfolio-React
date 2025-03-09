@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100 text-gray-900">
+      <div className="min-h-screen bg-[#b7b9b8] text-gray-900">
         <Navbar />
         <div className="container mx-auto p-6">
           <Routes>
