@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
+
   return (
       <nav className="bg-[#333337] text-white p-4 rounded-lg">
         <div className="flex justify-between items-center">
@@ -14,8 +15,10 @@ function Navbar() {
               <li key={name}>
                 <NavLink
                   to={path}
-                  className={({ isActive }) =>
-                    isActive ? "text-white font-bold" : "hover:font-bold"
+                  className={({ isActive}) =>
+                    (isActive || (name === "About"))
+                      ? "text-white font-bold"
+                      : "hover:font-bold"
                   }
                 >
                   {name}
