@@ -16,7 +16,7 @@ function Navbar() {
                 <NavLink
                   to={path}
                   className={({ isActive}) =>
-                    (isActive || (name === "About"))
+                    (isActive || (name === "About" && window.location.pathname === "/"))
                       ? "text-white font-bold"
                       : "hover:font-bold"
                   }
