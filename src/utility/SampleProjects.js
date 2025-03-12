@@ -36,7 +36,7 @@ let SampleProjects = [
     title: "The-Pantry",
     description: " An app to help keep track of food in your kitchen and track waste. Javascript, HTML, CSS, Heroku, Handlebars, MySQL, Sequelize, Express, Node and MVC Paradigm was used to build this application.",
     githubLink: "https://github.com/Babakbigdeli/Project-2-The-Pantry",
-    deployedLink: "http://pantrycheck.herokuapp.com/",
+    deployedLink: "https://thepantryproject-1e1d24a12cb0.herokuapp.com/",
     image: Pantry
   },
   {
