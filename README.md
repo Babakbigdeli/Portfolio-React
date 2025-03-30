@@ -49,6 +49,7 @@ You can explore the source code here:
 - **Tailwind CSS**
 - **Node.js**
 - **Git & GitHub**
+- **EmailJS**
 - **Netlify** (Deployment)
 
 ---
